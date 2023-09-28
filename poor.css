@@ -87,7 +87,7 @@ main::before{
     z-index: -1;
     width: 100%;
     height: auto;
-    min-height: 1070px;
+    /* min-height: 370px; */
     min-width: 664px;
     position: absolute;
     top: 0;
