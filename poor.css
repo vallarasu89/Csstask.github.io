@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(8 ,9, 9 ,0.7);
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.header-content h1{
+    font-weight: 700px;
+    font-family: sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+}
+.fisrt-span-heading{
+    color: rgb(255 111 15);
+}
+.second-span-heading{
+    color:white;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin: auto;
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Inter",sans-serif;
+    font-size: 1.094rem;
+    font-weight: 400;
+    color: white;
+}
+
+.Donate-now{
+    border: 1.5px solid rgb(255 111 15);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255 111 15);
+}
+.Donate-now:hover{
+    color: white;
+    background-color: rgb(255 111 15);
+}
+
+nav a:hover{
+    color:rgb(255 111 15) ;
+    
+}
+main{
+    /* z-index: 1;
+    background-color: rgba(0, 29, 35, .8);
+    height: 100%;
+    width: 100%; */
+    position: relative;
+}
+
+
+main::before{
+     content: ''; 
+     background: linear-gradient(0deg, rgba(0 23 35  / 73%), rgb(0 23 35 / 73%)), url(poor_people.jpg); 
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.85);
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    min-height: 1070px;
+    min-width: 664px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 29, 35, .8); */
+
+    
+}
+
+.main-div{
+    align-items: center;
+    padding-top: 300px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+.image-content{
+    font-size: calc(1rem + 2.7vw);
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 35.3rem;
+    margin: auto;
+    letter-spacing: -2.5px;
+    color: white;
+}
+
+.image-content-para{
+    text-decoration: none;
+    font-family: "Inter",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255,0.5);
+    width: 600px;
+    line-height: 1.3;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.image-content-button{
+    text-decoration: none;
+    border: 1px solid rgb(255 111 15);
+    font-size: 18px;
+    padding: 12px 20px;
+    font-family: "Inter",sans-serif;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255 111 15);
+}
+
+.image-content-button:hover{    
+    color: rgb(255 111 15);
+    background:none;
+}
